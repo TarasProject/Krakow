@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Krakow</title>
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Strona główna</a></li>
+          <li>
+            <a
+              href="https://www.google.com/search?q=krakow&source=lnms&tbm=isch&sa=X&ved=2ahUKEwitkrHXubb7AhUrmIsKHW-JCMUQ_AUoAnoECAEQBA&biw=1366&bih=568&dpr=1"
+              >Galeria</a
+            >
+          </li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="contact text-center">
+        <h2>Kontakty</h2>
+        <p>Informacja zwrotna</p>
+        <h3>Opisz swoje problemy. Wypełnij formularz</h3>
+
+        <form>
+          <div class="form-group">
+            <label>Imię: </label>
+            <input type="text" name="name" id="name" required />
+          </div>
+
+          <div class="form-group">
+            <label>Nazwisko:</label>
+            <input type="text" name="surname" id="surname" required />
+          </div>
+
+          <div class="form-group">
+            Płeć :
+            <label class="gender">Męskie</label>
+            <input type="radio" name="gender" value="male" />
+            <label class="gender">Kobieta</label>
+            <input type="radio" name="gender" value="female" />
+          </div>
+
+          <div class="form-group">
+            <label>Data urodzenia:</label>
+            <input type="date" name="birthDate" />
+          </div>
+
+          <div class="form-group">
+            <label> Wybierz województwo </label>
+            <select name="voivodeship">
+              <option>--None--</option>
+              <option>małopolskie</option>
+              <option>mazowieckie</option>
+              <option>podkarpackie</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Komentarz:</label>
+            <textarea name="comment" cols="30" rows="3"></textarea>
+          </div>
+
+          <div class="form-group">
+            <button type="reset">Wyczyść</button>
+            <button type="submit">Wyślij</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

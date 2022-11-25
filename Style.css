@@ -1,0 +1,58 @@
+/* nav */
+.menu {
+    display: inline-block;
+    width: 100%;    
+    background-color: lightgreen;
+    text-align: center;
+}
+.menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 40px;
+    
+}
+.menu a {    
+    text-decoration: none;
+    color: rgb(12, 37, 37);
+    font-size: 2.5em;    
+}
+.menu a:hover {
+    color: rgb(20, 57, 219);
+    font-size: 2.6em;   
+}
+
+/* footer */
+footer {
+    width: 100%;    
+    background-color: lightgreen;
+    text-align: center;
+}
+footer p {
+    margin: 0;
+    padding: 17px;
+}
+body {
+    background-color: greenyellow;
+}
+h1 {
+    text-align: center;
+}
+
+/* Kontakty */
+.text-center {
+    text-align:center;
+}
+.form-group {
+    padding: 10px;
+    width: 255px;
+    margin: auto;
+    text-align: left;
+}
+.form-group label {
+    display: block;
+    padding-bottom: 5px;
+}
+
+.form-group label.gender {
+    display: inline;
+}
